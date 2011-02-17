@@ -1,0 +1,14 @@
+Manual Install
+
+- create a new plugin
+- paste the code -> plugin.php
+- check the OnWebPagePrerender System Event
+- create a Property Set: onTemplates [Texfield] [Comma separated list of template IDs] - property to specify the templates you want to run this plugin on
+
+Package Install
+
+- upload the file manually to core/packages/
+- in the Package Management click "Add New Package"
+- select the "Search Locally for Packages" option
+- Anchors Away will appear in the Package list
+- install
